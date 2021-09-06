@@ -1,0 +1,49 @@
+<div class="dotorsList">
+    <div class="container">
+        <div class="row">
+            <h1><i class="fas fa-user-md"></i>List Of Doctors</h1>
+            <h2 class="DoctorsNum text-center"> Number Of Doctors <span>{{ doctorsList.length}}</span></h2>
+            <input type="text" [(ngModel)]="searchValue">
+            <div class="col-md-6 BoxContainer" *ngFor="let doctor of doctorsList ">
+                <!-- | searchfilter: searchValue -->
+                <div class="doctorBox">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="doctorImg">
+                                <img src="../../../assets/DoctorProfile/DoctorProfile.jpeg" />
+                            </div>
+                            <h3 id="namee">Dr: {{ doctor.name }}</h3>
+                            <span class="doctorSpec">@{{doctor.spec}}</span>
+                        </div>
+                        <div class="col-md-7 offset-1">
+                            <div class="doctorDetails">
+                                <mat-list>
+                                    <mat-list-item><i class="fas fa-notes-medical"></i><span
+                                            class="doctorHeads">Specialization:</span><span
+                                            class="subDetails">{{doctor.spec}}</span></mat-list-item>
+                                    <mat-divider></mat-divider>
+                                    <mat-list-item><i class="fas fa-map-marker-alt"></i><span
+                                            class="doctorHeads">Address:</span><span
+                                            class="subDetails">{{doctor.address}}</span></mat-list-item>
+                                    <mat-divider></mat-divider>
+                                    <mat-list-item><i class="fas fa-phone"></i><span
+                                            class="doctorHeads">Phone:</span><span
+                                            class="subDetails">{{doctor.phone}}</span>
+                                    </mat-list-item>
+                                    <mat-divider></mat-divider>
+                                    <mat-list-item><i class="fas fa-star"></i><span
+                                            class="doctorHeads">rating:</span><span class="subDetails"><i
+                                                class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                class="fas fa-star"></i></span>
+                                    </mat-list-item>
+                                    <mat-divider></mat-divider>
+                                </mat-list>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>

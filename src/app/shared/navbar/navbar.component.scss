@@ -1,0 +1,28 @@
+mat-toolbar {
+  background: #3cb03b;
+}
+
+.mat-icon {
+  color: #fff;
+}
+
+.mat-button {
+  color: #fff;
+}
+
+mat-toolbar .auth {
+  position: absolute;
+  right: 30px;
+}
+
+mat-toolbar .auth button {
+  color: #f1f1f1;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+mat-sidenav {
+  padding: 20px 5px;
+  height: 90vh;
+  width: 220px;
+}

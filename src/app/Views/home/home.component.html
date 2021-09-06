@@ -1,0 +1,78 @@
+<div class="header">
+  <div class="header-data">
+    <div class="welome-message">
+      <img src="./../../../assets/mender-logo.png" />
+      <h1>We Are Keep Your Life</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of
+        the printing and</p>
+      <div class="example-button-row">
+        <button routerLink="login" mat-raised-button color="basic"><i class="fas fa-sign-in-alt"></i> Log In</button>
+        <button routerLink="contact" mat-raised-button class="contact-button"><i class="fas fa-link"></i> Contact
+          Us</button>
+      </div>
+    </div>
+  </div>
+</div>
+<form class="example-form">
+  <mat-form-field class="search-input example-full-width">
+    <mat-label>Find Doctor</mat-label>
+    <input matInput placeholder="DR. Example" [value]="inputValid">
+  </mat-form-field>
+  <br>
+  <button mat-raised-button color="basic">
+    <mat-icon>search</mat-icon>
+  </button>
+  <span class="or">- OR - <i class="bi bi-arrow-left-square-fill"></i></span>
+  <div class="findDoctor">
+    <button routerLink="spec" mat-raised-button color="basic">Find All Specialatis</button>
+  </div>
+</form>
+<div class="prop">
+  <div class="container">
+    <div class="row">
+      <h2>
+        Why We Are here ?
+      </h2>
+      <div class="col-md-1"></div>
+      <div class="box col-md-3">
+        <i class="fas fa-user-md"></i>
+        <h3>For Reaching Your Doctor</h3>
+        <div class="clearFix"></div>
+        <mat-divider></mat-divider>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,</p>
+      </div>
+      <div class="box col-md-3">
+        <i class="fas fa-notes-medical"></i>
+        <h3>For Reaching All Specialaties</h3>
+        <div class="clearFix"></div>
+        <mat-divider></mat-divider>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,</p>
+      </div>
+      <div class="box col-md-3">
+        <i class="fas fa-user-clock"></i>
+        <h3>For Saving Your Time</h3>
+        <div class="clearFix"></div>
+        <mat-divider></mat-divider>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s,</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="seeNext">
+    <div class="seenNextOverlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h4>See What is The Next </h4>
+          </div>
+          <div class="col-md-1"><i class="fas fa-arrow-right"></i></div>
+          <div class="col-md-5 text-center">
+            <button routerLink="about" routerLinkActive="router-link-active" mat-raised-button>Find Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

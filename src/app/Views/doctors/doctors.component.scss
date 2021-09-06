@@ -1,0 +1,93 @@
+$mainColor: #3cb03b;
+$seconColor: #019fde;
+.dotorsList {
+  padding: 50px 0;
+}
+
+.dotorsList h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 21px;
+  font-size: 45px;
+}
+
+.dotorsList .DoctorsNum {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.dotorsList .DoctorsNum span {
+  color: #fafafa;
+  background: $seconColor;
+  padding: 5px;
+  font-size: 23px;
+  margin-left: 10px;
+  border-bottom: 3px solid #2d2d2d;
+}
+
+.dotorsList h1 i {
+  margin-right: 10px;
+  color: $seconColor;
+}
+
+.dotorsList .doctorBox {
+  box-shadow: 1px 4px 7px 0px #ccc;
+  box-sizing: border-box;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #b3b3b3;
+}
+
+.dotorsList .doctorBox .doctorImg {
+  width: 150px;
+  height: 150px;
+  border: 9px solid;
+  border-right-color: #3cb03b;
+  border-left-color: #3cb03b;
+  border-top-color: #019fde;
+  border-bottom-color: #019fde;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.dotorsList .doctorBox .doctorImg img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.dotorsList .doctorBox h3 {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.dotorsList .doctorBox span.doctorSpec {
+  color: $mainColor;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dotorsList .doctorBox .doctorDetails {
+  box-sizing: border-box;
+  padding-bottom: 5px;
+}
+
+.dotorsList .doctorBox .doctorDetails mat-list mat-list-item i {
+  color: $seconColor;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.dotorsList .doctorBox .doctorDetails mat-list mat-list-item .doctorHeads {
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.dotorsList .doctorBox .doctorDetails mat-list mat-list-item .subDetails i {
+  color: orange;
+  font-size: 13px;
+}

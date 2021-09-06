@@ -1,0 +1,486 @@
+[
+    {
+        "id": "1",
+      "name": "Fahd Fadel",
+      "spec": "Ear, Nose & Throat",
+      "address": "Luxor",
+      "phone": "01092341749"
+    },
+    {
+        "id": "1",
+      "name": "Ahmed Abu Elwafaa",
+      "spec": "Ear, Nose & Throat",
+      "address": "Luxor",
+      "phone": "01092989813"
+    },
+    {
+        "id": "1",
+      "name": "Hany Waheeb",
+      "spec": "Ear, Nose & Throat",
+      "address": "Luxor",
+      "phone": "01003493783"
+    },
+    {
+        "id": "1",
+      "name": "Hisham Sabry Albanna",
+      "spec": "Ear, Nose & Throat",
+      "address": "Luxor",
+      "phone": "095/2279841"
+    },
+    {
+        "id": "1",
+      "name": "Ali Abdulmajeed sehly",
+      "spec": "Ear, Nose & Throat",
+      "address": "Luxor",
+      "phone": "01121140466"
+    },
+    {
+        "id": "2",
+      "name": "Anwar Ameen",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "095/365654"
+    },
+    {
+        "id": "2",
+      "name": "Tarek Talha",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "01066089204"
+    },
+    {
+        "id": "2",
+      "name": "majed Abdulaziz",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "01006860117"
+    },
+    {
+        "id": "2",
+      "name": "Hany Abdulbaqi",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "01287472550"
+    },
+    {
+        "id": "2",
+      "name": "Magdy Abdulrahim",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "01006780293"
+    },
+    {
+        "id": "2",
+      "name": "Salah Tayea",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "095/2378344"
+    },
+    {
+        "id": "2",
+      "name": "Mojahed",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "01223366418"
+    },
+    {
+        "id": "2",
+      "name": "Mohamed Abbas",
+      "spec": "General Surgery",
+      "address": "Luxor",
+      "phone": "01004386940"
+    },
+    {
+        "id": "3",
+      "name": "Ezz Abdulwahab",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01222434870"
+    },
+    {
+        "id": "3",
+      "name": "Mohamed Essa Alyan",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01007841084"
+    },
+    {
+        "id": "3",
+      "name": "Mohamed Shahat Badawy",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01064550086"
+    },
+    {
+        "id": "3",
+      "name": "Nubi Abo Zaid",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01155541121"
+    },
+    {
+        "id": "3",
+      "name": "Mohsen Aodah",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01111201071"
+    },
+    {
+        "id": "3",
+      "name": "Mohamed Mostafa Abdulhady",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01067486677"
+    },
+    {
+        "id": "3",
+      "name": "Nadia Mostafa",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01003775492"
+    },
+    {
+        "id": "3",
+      "name": "Abeer Shaaban",
+      "spec": "chest diseases",
+      "address": "Luxor",
+      "phone": "01033702525"
+    },
+    {
+        "id": "4",
+      "name": "Mamdouh Mohamed Hamed",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "01014008004"
+    },
+    {
+        "id": "4",
+      "name": "Mohamed Abdullah Abbas",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "01119485393"
+    },
+    {
+        "id": "4",
+      "name": "Tarek Ali Rajeh",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "01008497669"
+    },
+    {
+        "id": "4",
+      "name": "Bahaa Boshra",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "095/2371675"
+    },
+    {
+        "id": "4",
+      "name": "Emad Younos",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "01126660040 , 01285359859"
+    },
+    {
+        "id": "4",
+      "name": "Sameer Almolla",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "095/2278543"
+    },
+    {
+        "id": "4",
+      "name": "Reham Ahmed Abdellah",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "01129136929"
+    },
+    {
+        "id": "4",
+      "name": "Othman Mohamed saad aldeen",
+      "spec": "Neurologists",
+      "address": "Luxor",
+      "phone": "01222883227"
+    },
+    {
+        "id": "5",
+      "name": "Mahmoud Moustafa",
+      "spec": "internal diseases",
+      "address": "Luxor",
+      "phone": "095/2279477"
+    },
+    {
+        "id": "5",
+      "name": "Nabil Abo Elhasan",
+      "spec": "internal diseases",
+      "address": "Luxor",
+      "phone": "095/2271291"
+    },
+    {
+        "id": "5",
+      "name": "Mohamed Tharwat",
+      "spec": "internal diseases",
+      "address": "Luxor",
+      "phone": "01098493656"
+    },
+    {
+        "id": "6",
+      "name": "Hamdy Hasan",
+      "spec": "bone diseases",
+      "address": "Luxor",
+      "phone": "01062646088"
+    },
+    {
+        "id": "6",
+      "name": "Ahmed Abo Elkasim",
+      "spec": "bone diseases",
+      "address": "Luxor",
+      "phone": "01270333880"
+    },
+    {
+        "id": "6",
+      "name": "Amro Ahmed Hussien",
+      "spec": "bone diseases",
+      "address": "Luxor",
+      "phone": "01221547435"
+    },
+    {
+        "id": "6",
+      "name": "Hossam Elazab",
+      "spec": "bone diseases",
+      "address": "Luxor",
+      "phone": "095/2270012"
+    },
+    {
+        "id": "6",
+      "name": "Ahmed Ismail",
+      "spec": "bone diseases",
+      "address": "Luxor",
+      "phone": "01111511738"
+    },
+    {
+        "id": "7",
+      "name": "Mark Nazeeh",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "095/2373492"
+    },
+    {
+        "id": "7",
+      "name": "Khaled Tomerk",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01155581880"
+    },
+    {
+        "id": "7",
+      "name": "Omar Ezz Eldeen",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01111100584"
+    },
+    {
+        "id": "7",
+      "name": "Ahmed Moustafa Eldweek",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01006201621"
+    },
+    {
+        "id": "7",
+      "name": "Mohamed Shikhon",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01019986338, 01142268848"
+    },
+    {
+        "id": "7",
+      "name": "Kareem Elkibaay",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01029493222"
+    },
+    {
+        "id": "7",
+      "name": "Samy Emeal",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01003552048, 01274950146"
+    },
+    {
+        "id": "7",
+      "name": "Ashraf Naseem",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01270576767"
+    },
+    {
+        "id": "7",
+      "name": "Waleed Shoaib",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01004026336"
+    },
+    {
+        "id": "7",
+      "name": "Hossam Tharwat",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "095/2386878"
+    },
+    {
+        "id": "7",
+      "name": "Ahmed Abo Elatta",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01061887662"
+    },
+    {
+        "id": "7",
+      "name": "Moustafa Mohamed Hagag",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01022922150"
+    },
+    {
+        "id": "7",
+      "name": "Ahmed Soltan",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "095/2276197"
+    },
+    {
+        "id": "7",
+      "name": "Amany Ajlan",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "01020535406"
+    },
+    {
+        "id": "7",
+      "name": "Fares Soliman",
+      "spec": "dentist",
+      "address": "Luxor",
+      "phone": "0952359909"
+    },
+    {
+        "id": "8",
+      "name": "Mohamed Ali Hashem",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "01004642178"
+    },
+    {
+        "id": "8",
+      "name": "Fakhry Tawfik",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "095/2376220"
+    },
+    {
+        "id": "8",
+      "name": "Sleem Fakhry Bshay",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "**********"
+    },
+    {
+        "id": "8",
+      "name": "Elkhateeb Hasan Ali",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "01145338136"
+    },
+    {
+        "id": "8",
+      "name": "Hagar Mohamed Eltaher",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "01155526169"
+    },
+    {
+        "id": "8",
+      "name": "Hala Anwar Seddik",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "*********"
+    },
+    {
+        "id": "8",
+      "name": "Nadia Kamaly",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "01094366566, 095/2281107"
+    },
+    {
+        "id": "8",
+      "name": "Sahar Bkheet",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "01004674313"
+    },
+    {
+        "id": "8",
+      "name": "Sona Mosaed",
+      "spec": "Dermatology",
+      "address": "Luxor",
+      "phone": "01110839381"
+    },
+    {
+        "id": "9",
+      "name": "Moustafa Hefny",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "01007575132, 095/2281962 "
+    },
+    {
+        "id": "9",
+      "name": "Fawzy Rashed",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "095/2272421"
+    },
+    {
+        "id": "9",
+      "name": "Ahmed Yahia",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "01093424373"
+    },
+    {
+        "id": "9",
+      "name": "Moustafa Khalaf",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "095/2284949"
+    },
+    {
+        "id": "9",
+      "name": "Mohamed Atito",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "01012793986"
+    },
+    {
+        "id": "9",
+      "name": "Mohamed Mahfouz",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "095/2286768"
+    },
+    {
+        "id": "9",
+      "name": "Gamal Elnubi",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "*******"
+    },
+    {
+        "id": "9",
+      "name": "Alaeon Hospital",
+      "spec": "ophthalmology",
+      "address": "Luxor",
+      "phone": "095/2284535"
+    }
+
+]

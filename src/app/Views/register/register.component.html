@@ -1,0 +1,43 @@
+<div class="registering">
+    <h3><i class="fas fa-user-plus"></i> Sign Up Now</h3>
+    <div class="details">
+        <form class="example-form">
+            <mat-form-field class="example-full-width">
+                <mat-label>Name <sup>*</sup></mat-label>
+                <input matInput placeholder="Ex. Pizza" value="">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Telephone <sup>*</sup></mat-label>
+                <span matPrefix>+2 &nbsp;</span>
+                <input type="tel" matInput placeholder="01128509297">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Email <sup>*</sup></mat-label>
+                <input type="email" matInput placeholder="Ex. pat@example.com">
+                <mat-error>
+                    Please enter a valid email address
+                </mat-error>
+                <mat-error>
+                    Email is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-radio-group aria-label="Select an option">
+                <mat-label>Gender <sup>*</sup></mat-label><br>
+                <mat-radio-button value="1">Male </mat-radio-button>
+                <mat-radio-button value="2">Female</mat-radio-button>
+            </mat-radio-group>
+
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Password <sup>*</sup></mat-label>
+                <input type="password" matInput placeholder="*******" value="">
+            </mat-form-field>
+            <button mat-raised-button color="accent">Join Now</button>
+
+        </form>
+
+
+    </div>
+</div>

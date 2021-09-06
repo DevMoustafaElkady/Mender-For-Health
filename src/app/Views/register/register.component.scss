@@ -1,0 +1,50 @@
+$mainColor: #3cb03b;
+$seconColor: #019fde;
+
+.registering {
+  width: 42%;
+  margin: 30px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.registering .details {
+  background-color: #e2f3e2;
+  padding: 50px;
+}
+
+.registering h3 {
+  font-weight: bold;
+  text-align: center;
+  background: $seconColor;
+  margin: 0;
+  padding: 15px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.registering h3 i {
+  margin-right: 10px;
+}
+
+.mat-form-field {
+  display: block;
+  margin-bottom: 30px;
+}
+
+mat-radio-group {
+  margin: 50px 0;
+  display: block;
+}
+
+mat-radio-group mat-label {
+  display: block;
+}
+
+mat-radio-group mat-radio-button {
+  margin-right: 20px;
+}
+
+sup {
+  color: #f0f;
+}

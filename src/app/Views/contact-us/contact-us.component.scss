@@ -1,0 +1,92 @@
+$mainColor: #3cb03b;
+$seconColor: #019fde;
+
+.contactHeader {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+
+.contactHeader h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+.contactContainer h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.contactForm {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.contactForm:hover i {
+  transform: rotate(360deg);
+  transition: ease-in-out 1s;
+  color: $mainColor;
+}
+
+.contactDetails:hover h2 i {
+  transform: rotate(360deg);
+  transition: ease-in-out 1s;
+  color: #2d2d2d;
+}
+
+.contactForm mat-form-field {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.contactForm mat-form-field textarea {
+  max-height: 80px;
+  min-height: 80px;
+}
+
+.contactForm button {
+  background-color: $mainColor;
+  color: #fff;
+}
+
+.contactDetails {
+  background: $mainColor;
+  padding: 50px 40px;
+  position: relative;
+  color: #fff;
+  height: 100%;
+}
+
+.contactDetails:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid #3cb03b;
+  position: absolute;
+  left: -30px;
+  top: 100px;
+}
+
+.contactDetails mat-list-item {
+  padding: 35px 0;
+}
+
+.contactDetails h2 {
+  margin-bottom: 50px;
+}
+.contactDetails mat-list-item i {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.contactDetails span {
+  color: #fff;
+}
+
+.contactDetails .socialIcon i {
+  font-size: 30px;
+}

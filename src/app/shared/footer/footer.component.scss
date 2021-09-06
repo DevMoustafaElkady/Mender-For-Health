@@ -1,0 +1,38 @@
+$mainColor: #3cb03b;
+footer {
+  background-color: $mainColor;
+  padding: 50px 0;
+}
+
+footer .mainFooter img {
+  width: 110px;
+}
+
+mat-list mat-list-item {
+  color: #fff;
+  cursor: pointer;
+  transition: linear 0.1s;
+}
+
+mat-list mat-list-item:hover {
+  background-color: #fff;
+  color: $mainColor;
+  box-shadow: 7px 9px 15px -10px #2d2d2d;
+}
+
+footer .mainFooter h4 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 33px;
+}
+
+.socialIcon {
+  padding: 10px;
+}
+
+.socialIcon i {
+  font-size: 25px;
+  margin-right: 6px;
+  color: #fff;
+}

@@ -1,0 +1,14 @@
+<div class="specialaties">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let spec of specialaties">
+                <div class="specBox">
+                    <span>{{ spec.id }}</span>
+                    <h3>{{ spec.name }}</h3>
+                    <p>{{ spec.content }}</p>
+                    <button mat-raised-button>Visit Depart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

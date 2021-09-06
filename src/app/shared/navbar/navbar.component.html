@@ -1,0 +1,32 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <button (click)="sideMenu.toggle()" mat-icon-button color="basic" aria-label="Example icon button with a home icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <div class="navy d-none d-sm-none d-xs-none d-lg-block">
+      <a mat-button routerLink="/" routerLinkActive="router-link-active"
+        routerLinkActiveOptions="{exact: true}">Home</a>
+      <a mat-button routerLink="about" routerLinkActive="router-link-active">About</a>
+      <a mat-button routerLink="doctors" routerLinkActive="router-link-active">Doctors</a>
+      <a mat-button routerLink="spec" routerLinkActive="router-link-active">Specialties</a>
+      <a mat-button routerLink="contact" routerLinkActive="router-link-active">Contact Us</a>
+    </div>
+    <span class="auth">
+      <button routerLink="login" mat-button color="basic"><i class="fas fa-sign-in-alt"></i> Log In</button>
+      <button routerLink="regist" mat-stroked-button color="basic"><i class="fas fa-user-plus"></i> Sign Up</button>
+    </span>
+  </mat-toolbar-row>
+
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="push" #sideMenu>
+    <div class="socialIcons">
+      <app-sidenav></app-sidenav>
+      <i class="fa fa-facebook-square"></i>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,158 @@
+$mainColor: #3cb03b;
+$seconColor: #019fde;
+
+.clearFix {
+  clear: both;
+}
+.header {
+  background: url(./../../../assets/Header-Background.jpg) center center fixed;
+  background-size: cover;
+  height: 90vh;
+}
+
+.header .header-data {
+  background: rgba(225, 225, 225, 0.9);
+  height: 100%;
+}
+
+.header .header-data .welome-message {
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+
+.header .header-data .welome-message h1 {
+  color: #2d2d2d;
+  font-size: 50px;
+}
+
+.header .header-data .welome-message img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.header .header-data .welome-message p {
+  color: #525252;
+  width: 450px;
+  margin: 25px auto;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.header .header-data .welome-message .contact-button {
+  background: $mainColor;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.search-input {
+  width: 400px;
+}
+
+form {
+  background: #3cb03b;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+form input {
+  background: #fff;
+  padding: 10px;
+}
+
+form mat-form-field {
+  color: #fff;
+  padding: 20px;
+}
+
+form .or {
+  display: block;
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+
+form button {
+  background: #0da1df;
+  color: #fff;
+}
+
+.prop {
+  padding: 50px 0;
+}
+
+.prop h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 40px;
+  color: #019fde;
+}
+
+.prop .box {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  box-shadow: 1px 4px 7px 0px #ccc;
+  margin-right: 25px;
+  transition: 0.2s;
+}
+
+.prop .box:hover {
+  box-shadow: none;
+}
+
+.prop .box i {
+  color: #019fde;
+  font-size: 40px;
+  margin-bottom: 11px;
+  display: inline-block;
+}
+
+.prop .box h3 {
+  font-weight: bold;
+  font-size: 23px;
+  color: $mainColor;
+  width: 77%;
+  float: right;
+}
+
+.prop .box mat-divider {
+  width: 50%;
+}
+
+.prop .box p {
+  margin-top: 15px;
+  color: #7f7f8e;
+  line-height: 1.7;
+}
+
+.seeNext {
+  background: url(../../../assets/nextBackground.jpg) fixed center center;
+  margin-top: 100px;
+}
+
+.seeNext .seenNextOverlay {
+  padding: 70px 0;
+  background: rgba(1, 159, 222, 0.8);
+}
+
+.seeNext .seenNextOverlay h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 17px;
+}
+
+.seeNext .seenNextOverlay i {
+  color: #fff;
+  font-size: 27px;
+  padding-top: 17px;
+}
+
+.seeNext .seenNextOverlay button {
+  width: 65%;
+  background-color: $mainColor;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
